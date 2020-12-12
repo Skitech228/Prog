@@ -34,7 +34,6 @@ namespace ConsoleApp37
                         count = i-1;
                         for (int t = 0; t < i; t++)
                         {
-                            sch = 1;
                             if (table[count][t + 1] == "C" && table[t][j] == "D" || table[count][t + 1] == "D" && table[t][j] == "C")
                                 table[i][j] = "A";
                             else
